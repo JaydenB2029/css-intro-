@@ -12,4 +12,6 @@ Added style.css file
 
 Added code to style.css file
 
-Changed colors of style.css file
+Changed colors of style.css 
+
+Tweaked colors two times

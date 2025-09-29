@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+
+</head>
+
+<style>
+  /* internal style (avoid in real projects, used here to compare) */
+  .lead { letter-spacing: 0.2px; }
+</style>
+<body>
+<h1 style="color:#e834df">About</h1> <!-- inline (not recommended) -->
+<p class="lead">My intro to CSS! Seems to be fun, hope to learn a lot, and learn how to properly use CSS.</p>
+
+<!-- inside <head> of both pages -->
+<link rel="stylesheet" href="style.css" />
+
+<!-- inside <body> -->
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <!-- page-specific content goes here -->
+</main>
+
+<footer><small>&copy; 2025 Jayden Balbuena</small></footer>
+
+</body>
+</html>
